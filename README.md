@@ -1,5 +1,6 @@
-# Horace
-Horace le guerrier squelette vous attend dans la crypte de Francmarché.
+# Horace le guerrier squelette
+
+Il vous attend dans la crypte de Francmarché.
 
 Particularités :
 - Il a un kit et des hlas personnalisés
