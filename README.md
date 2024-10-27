@@ -12,3 +12,5 @@ Particularités :
 - Il a +9 au TAC0 et +2 attaques par round
 - Il marche un peu plus vite que les pj vanilla
 - Il est fourni avec un script d'IA personalisé
+
+Attention : ce pnj n'est pas compatible avec le composant "Francmarché" du mod "Made in heaven Encounter and Quests" qui modifie la crypte de Francmarché et rend Horace innacessible.
