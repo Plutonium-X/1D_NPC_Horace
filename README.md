@@ -4,12 +4,13 @@ Il vous attend dans la crypte de Francmarché.
 
 Particularités :
 - Il n'a pas grand chose à raconter
-- Il ne peux qu'être spécialisé avec les armes (c'est son seul malus)
-- Il a un kit spécial
-- Il a des hlas personnels cheatés
-- Dés de vie : D14.
+- Il a 150000 xp quand vous le rencontrez, et ce quel que soit votre niveau
+- Il ne peut qu'être spécialisé avec les armes (c'est son seul malus)
+- Il a un kit spécial : collecteur d'os, dont la capacité "Hantise" est en fait "Etourdit 6 rounds sans jet de sauvegarde" !
+- Il a des hlas personnels cheatés (Pétrification sur zone !)
+- Bonus de base : +35 points de vie environ, +9 au TAC0 et +2 attaques par round
+- Résistance aux dégats tranchants 25% et aux dégats perforants 15%
 - Il peux entrer en rage de barbare 2x par jour
-- Il a +9 au TAC0 et +2 attaques par round
 - Il marche un peu plus vite que les pj vanilla
 - Il est fourni avec un script d'IA personalisé
 
