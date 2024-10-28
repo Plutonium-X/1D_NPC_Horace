@@ -1,7 +1,7 @@
 BACKUP ~Horace\backup~
 AUTHOR ~Seifer~
 
-VERSION ~v1.74~
+VERSION ~v1.75~
 
 // Readme displayed at the beginning, not the end, now
 README ~Horace/readme_HR.HTML~
@@ -47,10 +47,12 @@ BEGIN @0
 //\\//\\//\\//\\//\\//\\//\\//\
 // ~~ Compiling dialogues ~~ \\
 ////\\//\\//\\//\\//\\//\\//\//
-COMPILE ~Horace\Dialogue\Horace.d~  //Still being developed.
+
 COMPILE ~Horace\Dialogue\BHorace.d~ //Still being developed
 COMPILE ~Horace\Dialogue\HoraceJ.d~ //Still being developed
 COMPILE ~Horace\Dialogue\HoraceP.d~
+ACTION_IF GAME_IS ~TOB BGT BG2EE~ THEN BEGIN	COMPILE ~Horace\Portraits\Horace.d~	END
+ACTION_IF GAME_IS ~EET~ THEN BEGIN	COMPILE ~Horace\PortraitsEE\Horace.d~	END
 
 //\\//\\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
 // ~~ Script Compilation and transfer ~~   //
