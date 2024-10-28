@@ -67,7 +67,8 @@ EXTEND_TOP ~Horace.bcs~ ~Horace\Scripts\HorFight.bcs~//Battle AI
 BEGIN @1
 ADD_KIT ~SeifHL~
 ~SeifHL                   1           1           1           1           1 1           1           1~
-~SeifHL   2 2 0 0 2 2 2 0 2 2 2 2 0 2 0 2 2 2 0 0 2 2 0 0 0 0 3 3 2 3 3 0 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5~
+
+~SeifHL    2 2 0 0 2 2 2 0 2 2 2 2 0 2 0 2 2 2 0 0 2 2 0 0 0 0 3 3 2 2 2 0 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5~
 ~SeifHL                   0       0       13      0       14      13~
 ~SeifHL                   0       0       0       0       0       0~
 ~SeifHL                   0       0       0       0       0       0~
