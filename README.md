@@ -3,7 +3,7 @@
 Il vous attend dans la crypte de Francmarché.
 
 Particularités :
-- Il n'a pas grand chose à raconter
+- Il a très peu de dialogue et aucun banter
 - Il a 150000 xp quand vous le rencontrez, et ce quel que soit votre niveau
 - Il a un kit spécial : collecteur d'os, dont la capacité "Hantise" est en fait "Etourdit 6 rounds sans jet de sauvegarde"
 - Il a des hlas personnels cheatés (Pétrification sur zone !)
