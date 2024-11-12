@@ -15,6 +15,7 @@ Particularités :
 
 
 Kit de Collecteur d'os : 
+
 Avantages :
 - Sort de Hantise tous les 4 niveaux à partir du niveau 12. (Étourdissement 6 rounds sans jds ni RM !)
 - Sort d'Apaisement tous les 4 niveaux à partir du niveau 12.
