@@ -63,13 +63,49 @@ COPY ~Horace/Scripts/Horace.bcs~ ~override/Horace.bcs~ //still being developed.
 COPY ~Horace/Scripts/Horfight.bcs~ ~override/Horfight.bcs~ //still being developed.
 EXTEND_TOP ~Horace.bcs~ ~Horace\Scripts\HorFight.bcs~//Battle AI
 
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
+//  ~~ Creature transfer, more in hope then expectation! ~~             //
+////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\//
+
+COPY ~Horace/Horace.cre~ ~override~
+  SAY NAME1 @23
+  SAY NAME2 @23
+  SAY BIO @24
+  
+//\\//\\//\\//\\//\\//\\//\\//
+//  ~~ Portrait transfer! ~~//
+////\\//\\//\\//\\//\\//\\//\\
+//Please note that for the sake of TESTING I am currently transfering these individually.  I am well aware of HOW to transfer a directory!
+
+ACTION_IF GAME_IS ~BG2 TOB BGT~ THEN BEGIN
+COPY ~Horace/Portraits~ ~override~
+END
+
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
+COPY ~Horace/PortraitsEE~ ~override~
+END
+
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
+//  ~~ 2da appending, more in hope then expectation! ~~             //
+////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
+APPEND ~pdialog.2da~
+~Horace     HoraceP            HoraceJ           HoraceD~
+UNLESS ~Horace~
+UNLESS ~25POST~
+
+APPEND ~pdialog.2da~
+~Horace     HoraceP            HoraceJ           HoraceD        Horc25P           Horc25J              Horc25D              Horc25~
+UNLESS ~Horace~
+IF     ~25POST~
+
+
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
 //  ~~ Kit Appending, more in hope then expectation! ~~             //
 ////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
 BEGIN @1
+REQUIRE_COMPONENT ~setup-Horace.tp2~ ~0~ ~Horace not installed~
 ADD_KIT ~SeifHL~
 ~SeifHL                   1           1           1           1           1 1           1           1~
-
 ~SeifHL    2 2 0 0 2 2 2 0 2 2 2 2 0 2 0 2 2 2 0 0 2 2 0 0 0 0 3 3 2 2 2 0 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5~
 ~SeifHL                   0       0       13      0       14      13~
 ~SeifHL                   0       0       0       0       0       0~
@@ -153,29 +189,18 @@ COPY ~Horace/Spells/Horc09.spl~  ~override/Horc09.spl~//Spook
 COPY ~Horace/Hor07.cre~ ~override/Hor07.cre~
 COPY ~Horace/VVC~  ~override~
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
-//  ~~ Creature transfer, more in hope then expectation! ~~             //
+//  ~~ Patching Horace, more in hope then expectation! ~~             //
 ////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\//
 
 // BWP fixpack fix applied
-COPY ~Horace/Horace.cre~ ~override~
+COPY_EXISTING ~Horace.cre~ ~override~
   WRITE_SHORT   0x244 0
   WRITE_SHORT   0x246 0x4000 + ~%SeifHL%~
-  SAY NAME1 @23
-  SAY NAME2 @23
-  SAY BIO @24
 
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
 //  ~~ 2da appending, more in hope then expectation! ~~             //
 ////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
-APPEND ~pdialog.2da~
-~Horace     HoraceP            HoraceJ           HoraceD~
-UNLESS ~Horace~
-UNLESS ~25POST~
 
-APPEND ~pdialog.2da~
-~Horace     HoraceP            HoraceJ           HoraceD        Horc25P           Horc25J              Horc25D              Horc25~
-UNLESS ~Horace~
-IF     ~25POST~
 
 APPEND ~interdia.2da~
 ~Horace    BHorace~
@@ -194,19 +219,6 @@ IF     ~25FILE~
 //Please note that for the sake of TESTING I am currently transfering these individually.  I am well aware of HOW to transfer a directory!
 COPY ~Horace/Graphic~ ~override~
 COPY ~Horace/Icons~ ~override~
-
-//\\//\\//\\//\\//\\//\\//\\//
-//  ~~ Portrait transfer! ~~//
-////\\//\\//\\//\\//\\//\\//\\
-//Please note that for the sake of TESTING I am currently transfering these individually.  I am well aware of HOW to transfer a directory!
-
-ACTION_IF GAME_IS ~BG2 TOB BGT~ THEN BEGIN
-COPY ~Horace/Portraits~ ~override~
-END
-
-ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
-COPY ~Horace/PortraitsEE~ ~override~
-END
 
 //\\//\\//\\//\\//\\//\\//\\//
 //  ~~ Items transfer! ~~   //
