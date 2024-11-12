@@ -3,7 +3,7 @@
 Il vous attend dans la crypte de Francmarché.
 
 Particularités :
-- Il a très peu de dialogue et aucun banter
+- Tout son dialogue et consacré au moment de la rencontre avec lui. Après recrutement, plus rien.
 - Il a 150K xp (niveau 8) quand vous le rencontrez, et ce quel que soit votre niveau
 - Bonus de base : +35 points de vie environ, +9 au TAC0 et +2 attaques par round
 - Résistance aux dégats tranchants 25% et aux dégats perforants 15%
