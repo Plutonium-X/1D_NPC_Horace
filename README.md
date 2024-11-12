@@ -11,8 +11,10 @@ Particularités :
 - Il peux entrer en rage de barbare 2x par jour
 - Il est fourni avec un script d'IA personnalisé
 - Il n'a pas les immunité que devrait avoir un squelette (sorts de mort, effets mentaux, etc)
-- par défaut Horace est un guerrier mais le mod propose aussi l'installation d'un kit personnalisé pour lui : 
+- par défaut Horace est un guerrier mais le mod propose aussi l'installation d'un kit personnalisé pour lui :
 
+
+Attention : ce pnj n'est pas compatible avec le composant "Francmarché" du mod "Made in heaven Encounter and Quests" qui modifie la crypte de Francmarché et rend Horace innacessible. 
 
 
 Kit de Collecteur d'os : 
@@ -37,6 +39,3 @@ Hlas :
 - Fléchette d'os (crée 20 fléchettes +3 qui font dextérité -2 et lenteur 1 round si jds raté)
 - Transformation en golem d'os (Transforme Horace en Golem d'os pendant 1 tour (Immunité à la magie et aux éléments, 50% de résistance aux dégâts physiques, Force 22)(peut-être inférieur à Horace niveau 20+, mais les immunités, ouch !)
 
-
-
-Attention : ce pnj n'est pas compatible avec le composant "Francmarché" du mod "Made in heaven Encounter and Quests" qui modifie la crypte de Francmarché et rend Horace innacessible.
