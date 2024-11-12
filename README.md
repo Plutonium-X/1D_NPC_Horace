@@ -10,6 +10,7 @@ Particularités :
 - +2 en mouvement
 - Il peux entrer en rage de barbare 2x par jour
 - Il est fourni avec un script d'IA personnalisé
+- Il n'a pas les immunité que devrait avoir un squelette (sorts de mort, effets mentaux, etc)
 - par défaut Horace est un guerrier mais le mod propose aussi l'installation d'un kit personnalisé pour lui : 
 
 
@@ -28,7 +29,7 @@ Désavantages :
 - Pas d'arc long et d'arbalète
 
 Hlas :
-- Noirceur du cauchemar (mage et zone autour : pétrification si jds raté, sinon terreur)
+- Noirceur du cauchemar (Horace et zone autour : pétrification si jds raté, sinon terreur)
 - Oeil maléfique (Débilité + Cécité + Surdité + Silence 5 rounds, jds à -2)
 - Malédiction des Anciens (cible = Mot de pouvoir mortel, si plus de 60 pvs jds à -2 ou mort)
 - Mantra de la Mort (Résistance à la magie 100%, 5 rounds)
