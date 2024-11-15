@@ -5,7 +5,7 @@ Il vous attend dans la crypte de Francmarché.
 Particularités :
 - Il a très peu de dialogues et banter.
 - Il a 150K xp (niveau 8) quand vous le rencontrez, et ce quel que soit votre niveau
-- Bonus de base : +35 points de vie environ, +9 au TAC0 et +2 attaques par round
+- Bonus de base : +35 points de vie environ, +9 au TAC0 et +2 APR
 - Résistance aux dégâts tranchants 25% et aux dégâts perforants 15%
 - +2 en mouvement
 - Il peux entrer en rage de barbare 2x par jour
