@@ -19,7 +19,7 @@ Avantages :
 - Sort de Hantise tous les 4 niveaux à partir du niveau 12. (Étourdissement 6 rounds sans jds ni RM !)
 - Sort d'Apaisement tous les 4 niveaux à partir du niveau 12.
 - Sort de Mot de Pouvoir mortel tous les 5 niveaux à partir du niveau 20.
-- 100% de résistance aux dégâts de l'acide.
+- 100% de résistance à l'acide.
 
 Désavantages :
 - -3 au charisme
