@@ -10,7 +10,7 @@ Particularités :
 - +2 en mouvement
 - Il peux entrer en rage de barbare 2x par jour
 - Il est fourni avec un script d'IA personnalisé
-- Il n'a pas les immunité que devrait avoir un squelette (sorts de mort, effets mentaux, etc)
+- Il n'a pas les immunité que devrait avoir un squelette (sorts de mort, effets mentaux, etc)(mais il existe <a href=https://github.com/Deratiseur/Mods_Tweaker>un mod</a> pour corriger ça)
 - par défaut Horace est un guerrier mais le mod propose aussi l'installation d'un kit personnalisé pour lui :
 
 Kit de Collecteur d'os : 
