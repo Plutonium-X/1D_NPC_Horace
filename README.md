@@ -3,6 +3,7 @@
 Il vous attend dans la crypte de Francmarché.
 
 Particularités :
+- Caractéristiques : force 17, dextérité 13, endurance 18, intelligence 13, sagesse 16, charisme 9.
 - Il a très peu de dialogues et banter.
 - Il a 150K xp (niveau 8) quand vous le rencontrez, et ce quel que soit votre niveau
 - Bonus de base : +35 points de vie environ, +9 au TAC0 et +2 APR
