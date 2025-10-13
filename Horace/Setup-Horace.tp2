@@ -12,7 +12,9 @@ ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 		ACTION_DEFINE_ARRAY ch_reload BEGIN
 		~Setup.tra~
 		END
-		ACTION_DEFINE_ARRAY ch_noconvert BEGIN END
+		ACTION_DEFINE_ARRAY ch_noconvert BEGIN
+        ~Install.tra~
+		END
 			LAF HANDLE_CHARSETS
 			INT_VAR
 			infer_charset = 1
@@ -41,6 +43,10 @@ LANGUAGE ~Francais (traduit par Le Marquis des d'Oghmatiques)~
 LANGUAGE ~Italian (translation by Ilot)~
          ~Italian~
          ~Horace/tra/Italian/Setup.tra~
+		 
+LANGUAGE ~Schinese (translation by eva2000as)~
+         ~Schinese~
+         ~Horace/TRA/Schinese/Install.tra~
 
 BEGIN @0
 
