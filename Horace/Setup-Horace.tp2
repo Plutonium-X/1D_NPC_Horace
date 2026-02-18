@@ -1,7 +1,7 @@
 BACKUP ~Horace\backup~
 AUTHOR ~Seifer~
 
-VERSION ~v1.8~
+VERSION ~v1.8.1~
 
 // Readme displayed at the beginning, not the end, now
 README ~Horace/readme_HR.HTML~
@@ -241,4 +241,5 @@ COPY ~Horace/Items/S#dart.ITM~ ~override~
   SAY NAME2 @14
   SAY UNIDENTIFIED_DESC @27
   SAY DESC @28
+
 
