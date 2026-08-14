@@ -64,10 +64,10 @@ ACTION_IF GAME_IS ~EET~ THEN BEGIN	COMPILE ~Horace\PortraitsEE\Horace.d~	END
 // ~~ Script Compilation and transfer ~~   //
 ////\\//\\//\\//\\//\\//\\//\//\\//\\//\\//\\
 
-COPY ~Horace/Scripts/AR2013.bcs~ ~override/AR2013.bcs~ //still being developed.
-COPY ~Horace/Scripts/Horace.bcs~ ~override/Horace.bcs~ //still being developed.
-COPY ~Horace/Scripts/Horfight.bcs~ ~override/Horfight.bcs~ //still being developed.
-EXTEND_TOP ~Horace.bcs~ ~Horace\Scripts\HorFight.bcs~//Battle AI
+EXTEND_TOP ~AR2013.bcs~ ~Horace/Scripts/AR2013.baf~ //still being developed.
+COMPILE ~Horace/Scripts/Horace.baf~ //still being developed.
+COMPILE ~Horace/Scripts/Horfight.baf~ //still being developed.
+EXTEND_TOP ~Horace.bcs~ ~Horace\Scripts\HorFight.baf~//Battle AI
 
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
 //  ~~ Creature transfer, more in hope then expectation! ~~             //
