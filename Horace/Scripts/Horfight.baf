@@ -336,8 +336,7 @@ END
 IF
 	CombatCounter(0)
 	Global("HORCombat","GLOBAL",1)
-	OR(1)
-		!Detect([EVILCUTOFF])
+	!Detect([EVILCUTOFF])
 THEN
 	RESPONSE #100
 		SetGlobal("HORCombat","GLOBAL",0)
