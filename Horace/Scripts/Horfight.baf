@@ -112,7 +112,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("HORPrep","LOCALS",1)
-		ActionOverride(Myself,UseItem("POTN11",Myself))  // Potion of Invulnerability
+		UseItem("POTN11",Myself)  // Potion of Invulnerability
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -129,7 +129,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("HORPrep","LOCALS",1)
-		ActionOverride(Myself,SpellRES("HOR03",NearestEnemyOf(Myself)))
+		SpellRES("HOR03",NearestEnemyOf(Myself))
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -146,7 +146,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("HORPrep","LOCALS",1)
-		ActionOverride(Myself,SpellRES("HORC08",NearestEnemyOf(Myself)))
+		SpellRES("HORC08",NearestEnemyOf(Myself))
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -163,7 +163,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("HORPrep","LOCALS",1)
-		ActionOverride(Myself,SpellRES("HOR01",NearestEnemyOf(Myself)))
+		SpellRES("HOR01",NearestEnemyOf(Myself))
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -180,7 +180,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("HORPrep","LOCALS",1)
-		ActionOverride(Myself,SpellRES("HOR02",NearestEnemyOfType([0.0.0.MAGE_ALL])))
+		SpellRES("HOR02",NearestEnemyOfType([0.0.0.MAGE_ALL]))
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -197,7 +197,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("HORPrep","LOCALS",1)
-		ActionOverride(Myself,SpellRES("HOR02",NearestEnemyOfType([0.0.0.CLERIC_ALL])))
+		SpellRES("HOR02",NearestEnemyOfType([0.0.0.CLERIC_ALL]))
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -214,7 +214,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("HORPrep","LOCALS",1)
-		ActionOverride(Myself,SpellRES("HOR02",NearestEnemyOfType([0.0.0.DRUID_ALL])))
+		SpellRES("HOR02",NearestEnemyOfType([0.0.0.DRUID_ALL]))
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -232,7 +232,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("HORPrep","LOCALS",1)
-		ActionOverride(Myself,SpellRES("HORC09",NearestEnemyOf(Myself)))
+		SpellRES("HORC09",NearestEnemyOf(Myself))
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -248,7 +248,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("HORPrep","LOCALS",1)
-		ActionOverride(Myself,UseItem("POTN07",Myself))  // Potion of Storm Giant Strength
+		UseItem("POTN07",Myself)  // Potion of Storm Giant Strength
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -264,7 +264,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("HORPrep","LOCALS",1)
-		ActionOverride(Myself,UseItem("POTN06",Myself))  // Potion of Cloud Giant Strength
+		UseItem("POTN06",Myself)  // Potion of Cloud Giant Strength
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -280,7 +280,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("HORPrep","LOCALS",1)
-		ActionOverride(Myself,UseItem("POTN05",Myself))  // Potion of Fire Giant Strength
+		UseItem("POTN05",Myself)  // Potion of Fire Giant Strength
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -296,7 +296,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("HORPrep","LOCALS",1)
-		ActionOverride(Myself,UseItem("POTN04",Myself))  // Potion of Frost Giant Strength
+		UseItem("POTN04",Myself)  // Potion of Frost Giant Strength
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -312,7 +312,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("HORPrep","LOCALS",1)
-		ActionOverride(Myself,UseItem("POTN03",Myself))  // Potion of Hill Giant Strength
+		UseItem("POTN03",Myself)  // Potion of Hill Giant Strength
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -426,7 +426,7 @@ IF
 	HaveSpellRES("SPCL152")  // Barbarian Rage
 THEN
 	RESPONSE #100
-		ActionOverride(Myself,SpellRES("SPCL152",Myself))  // Barbarian Rage
+		SpellRES("SPCL152",Myself)  // Barbarian Rage
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -446,7 +446,7 @@ IF
 	!Global("HORPrep","LOCALS",0)
 THEN
 	RESPONSE #100
-		ActionOverride(Myself,SpellRES("HOR04",Myself))
+		SpellRES("HOR04",Myself)
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -467,7 +467,7 @@ IF
 	!Global("HORPrep","LOCALS",0)
 THEN
 	RESPONSE #100
-		ActionOverride(Myself,UseItem("POTN11",Myself))  // Potion of Invulnerability
+		UseItem("POTN11",Myself)  // Potion of Invulnerability
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -531,7 +531,7 @@ IF
 	HPLT(NearestEnemyOf(Myself),60)
 THEN
 	RESPONSE #100
-		ActionOverride(Myself,SpellRES("HOR03",NearestEnemyOf(Myself)))
+		SpellRES("HOR03",NearestEnemyOf(Myself))
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -547,7 +547,7 @@ IF
 	HPLT(LastSeenBy(Myself),60)
 THEN
 	RESPONSE #100
-		ActionOverride(Myself,SpellRES("HORC08",NearestEnemyOf(Myself)))
+		SpellRES("HORC08",NearestEnemyOf(Myself))
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackOneRound(NearestEnemyOf(Myself))
 		Continue()
@@ -566,7 +566,7 @@ IF
 	HaveSpellRES("HOR01")
 THEN
 	RESPONSE #100
-		ActionOverride(Myself,SpellRES("HOR01",NearestEnemyOf(Myself)))
+		SpellRES("HOR01",NearestEnemyOf(Myself))
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -581,7 +581,7 @@ IF
 	HaveSpellRES("SPCL222")  // Remove Fear
 THEN
 	RESPONSE #100
-		ActionOverride(Myself,SpellRES("SPCL222",Player1))  // Remove Fear
+		SpellRES("SPCL222",Player1)  // Remove Fear
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -596,7 +596,7 @@ IF
 	HaveSpellRES("SPCL222")  // Remove Fear
 THEN
 	RESPONSE #100
-		ActionOverride(Myself,SpellRES("SPCL222",Player2))  // Remove Fear
+		SpellRES("SPCL222",Player2)  // Remove Fear
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -611,7 +611,7 @@ IF
 	HaveSpellRES("SPCL222")  // Remove Fear
 THEN
 	RESPONSE #100
-		ActionOverride(Myself,SpellRES("SPCL222",Player3))  // Remove Fear
+		SpellRES("SPCL222",Player3)  // Remove Fear
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -626,7 +626,7 @@ IF
 	HaveSpellRES("SPCL222")  // Remove Fear
 THEN
 	RESPONSE #100
-		ActionOverride(Myself,SpellRES("SPCL222",Player4))  // Remove Fear
+		SpellRES("SPCL222",Player4)  // Remove Fear
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -641,7 +641,7 @@ IF
 	HaveSpellRES("SPCL222")  // Remove Fear
 THEN
 	RESPONSE #100
-		ActionOverride(Myself,SpellRES("SPCL222",Player5))  // Remove Fear
+		SpellRES("SPCL222",Player5)  // Remove Fear
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -656,7 +656,7 @@ IF
 	HaveSpellRES("SPCL222")  // Remove Fear
 THEN
 	RESPONSE #100
-		ActionOverride(Myself,SpellRES("SPCL222",Player6))  // Remove Fear
+		SpellRES("SPCL222",Player6)  // Remove Fear
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -673,7 +673,7 @@ IF
 	HaveSpellRES("HORC09")
 THEN
 	RESPONSE #100
-		ActionOverride(Myself,SpellRES("HORC09",NearestEnemyOf(Myself)))
+		SpellRES("HORC09",NearestEnemyOf(Myself))
 		SetGlobalTimer("HORTIMER","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -718,7 +718,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("HORTransf","LOCALS",1)
-		ActionOverride(Myself,SpellRES("HOR07",Myself))
+		SpellRES("HOR07",Myself)
 		SetGlobalTimer("HORTimer","GLOBAL",6)
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 		Continue()
@@ -762,7 +762,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("HORTransf","LOCALS",1)
-		ActionOverride(Myself,SpellRES("HOR07",Myself))
+		SpellRES("HOR07",Myself)
 		SetGlobalTimer("HORTimer","GLOBAL",6)
 		AttackOneRound(NearestEnemyOf(Myself))
 END
