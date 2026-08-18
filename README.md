@@ -8,6 +8,7 @@ Particularités :
 - Il a 150K xp (niveau 8) quand vous le rencontrez, et ce quel que soit votre niveau
 - Bonus de base : +50 points de vie environ, +9 au TAC0 et +2 APR
 - Résistance aux dégâts tranchants 25% et aux dégâts perforants 15%
+- 100% de résistance à l'acide
 - +2 en mouvement
 - Il peux entrer en rage de barbare 2x par jour
 - Il est fourni avec un script d'IA personnalisé
@@ -20,7 +21,7 @@ Avantages :
 - Sort de Hantise tous les 4 niveaux à partir du niveau 12. (Étourdissement 6 rounds sans jds ni RM !)
 - Sort d'Apaisement tous les 4 niveaux à partir du niveau 12.
 - Sort de Mot de Pouvoir mortel tous les 5 niveaux à partir du niveau 20.
-- 100% de résistance à l'acide.
+- Immunité au poison.
 
 Désavantages :
 - -3 au charisme
